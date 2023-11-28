@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scenePane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="669.0" prefWidth="759.0" styleClass="welcome-bg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.HelloController">
+   <children>
+      <Label fx:id="gameLabel" alignment="CENTER" layoutX="28.0" layoutY="663.0" prefHeight="0.0" prefWidth="759.0" styleClass="label-graphic" stylesheets="@style.css" text="TIC - TAC - TOE" textFill="#1644aea1">
+         <font>
+            <Font name="Jokerman" size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcome" alignment="CENTER" layoutX="25.0" layoutY="593.0" prefHeight="55.0" prefWidth="766.0" text="WELCOME TO" textAlignment="CENTER" textFill="#2615e2bf">
+         <font>
+            <Font name="Eras Demi ITC" size="60.0" />
+         </font>
+      </Label>
+      <GridPane fx:id="gridLayout" alignment="CENTER" gridLinesVisible="true" layoutX="275.0" layoutY="287.0" prefHeight="177.0" prefWidth="265.0" AnchorPane.topAnchor="287.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="95.0" text="X" textFill="#177aa1">
+               <font>
+                  <Font name="System Bold Italic" size="43.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="104.0" text="X" textFill="#1d546b" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold Italic" size="43.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="96.0" text="X" textAlignment="RIGHT" textFill="#1d546b" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold Italic" size="43.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="43.0" prefWidth="95.0" text="X" textFill="#1d546b" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold Italic" size="43.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="95.0" text="TIC" textFill="#96474d" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold Italic" size="35.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="36.0" prefWidth="97.0" text="TAC" textAlignment="CENTER" textFill="#96474d" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold Italic" size="35.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="94.0" text="TOE" textFill="#96474d" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold Italic" size="35.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="106.0" text="O" textFill="#4c2b2b" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold Italic" size="43.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="91.0" text="O" textFill="#4c2b2b" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold Italic" size="43.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Button fx:id="continueButton" alignment="CENTER" layoutX="305.0" layoutY="502.0" mnemonicParsing="false" onAction="#onContinueButton" prefHeight="41.0" prefWidth="219.0" styleClass="button-continue" stylesheets="@style.css" text="Continue" textFill="#f1f2ebfc" visible="false">
+         <font>
+            <Font name="Old English Text MT" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="infoButton" alignment="CENTER" layoutX="49.0" layoutY="34.0" mnemonicParsing="false" onAction="#onInfoButton" prefHeight="37.0" prefWidth="40.0" styleClass="button-info" stylesheets="@style.css" text="i" textFill="#e04e4e" visible="false">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

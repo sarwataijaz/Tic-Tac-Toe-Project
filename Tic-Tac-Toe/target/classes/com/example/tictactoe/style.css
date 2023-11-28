@@ -1,0 +1,65 @@
+ .welcome-bg {
+    -fx-background-color: #aff2ec;
+ }
+ .button-continue {
+    -fx-background-color: #328b91;
+    -fx-background-radius: 50px;
+ }
+ .button-continue:hover {
+    -fx-background-color: #eeef86;
+ }
+ .button-info {
+    -fx-border-radius: 50px;
+    -fx-background-color: transparent;
+    -fx-border-color: #a339ac;
+ }
+ .button-info:hover {
+    -fx-background-color: #eeef86;
+    -fx-background-radius: 50px;
+ }
+ .textField-players{
+    -fx-border-color: #231e55;
+    -fx-border-radius: 50px;
+    -fx-background-color: #78afdb;
+    -fx-background-radius: 50px;
+    -fx-text-inner-color: #fbf3e8;
+    -fx-prompt-text-fill: #fbf3e8;
+
+ }
+
+ .button-play {
+    -fx-background-color: #6c7379;
+
+ }
+ .button-play:hover {
+    -fx-background-color: #e0d5d5;
+ }
+ .gridLines {
+    -fx-background-color: #f69f9f;
+ }
+ .gridCells {
+    -fx-min-width: 50;
+     -fx-min-height: 50;
+    -fx-background-color: #78afdb;
+ }
+ .textField-name {
+    -fx-border-color: #328b91;
+    -fx-border-radius: 50px;
+    -fx-background-color: #b6c5dd;
+    -fx-background-radius: 50px;
+    -fx-text-inner-color: #cc2727;
+ }
+ .pause {
+        -fx-background-color: #691bd1;
+         -fx-background-radius: 50px;
+ }
+ .pause:hover {
+         -fx-background-color: #f5f0f0;
+         -fx-background-radius: 50px;
+ }
+ .menuBar {
+    -fx-background-color: #e67373;
+ }
+ .bg {
+    -fx-background-color: #d0c6cd;
+ }
