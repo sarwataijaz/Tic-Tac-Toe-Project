@@ -2,12 +2,15 @@
 ## Basic tic-tac-toe project using advance features of JavaFx and logic implementation using Java.
 One of the most beginner friendly project to start with especially if you wanna enhance your object-oriented concepts and expand your skills in implementing UI design and graphical components. The logic for the game is also quite clear and has many ways to implement which makes it a bit distinct!
 ### Code Structure: 
-There are in total 4 controller classes that involves sequential steps of implementing algorithms and generating a user-friendly design. This helps in implementing various effects and animations to the labels and buttons displayed in the game. By default, there is also a *HelloApplication* class provided by JavaFX that is used for executing the program by calling out the *start* method of *Application* class. 
+ Project is organized into four controller classes, showcasing a modular and maintainable structure. The sequential steps in these classes guide the implementation of algorithms, allowing for systematic problem-solving. By integrating effects and animations into labels and buttons, we aim to enhance the overall user experience.
 
 ### UI Design:
-Crafted using scene-builder, CSS styling to enhance the designing and make the overall components prominant and appealing enough. Also used some of the additional icons from the Java *.jar* file. 
-
+Crafted the UI using Scene Builder for an efficient design process. Also incorporated CSS styling which not only enhances aesthetics but also demonstrates an understanding of styling in JavaFX. Additional icons from the Java .jar file are added to make the interface visually appealing.
 ### FXML Documents:
-For each controller class, there is a different fxml file as in there are different *stages* loaded in each of the them. 
-### Why JavaFX:
-Java is a versatile programming language that apart from providing data structures for complex tasks, also enables the programmmer to develop GUI programs efficiently.  For this case, Swing is also a reliable option, but with some advance and automated tools of JavaFX project, its much easier to craft UI and implement the whole logic. Although it's my very first Java proper GUI project, it was easier to design and make it look appealing.
+Each controller class has a dedicated FXML document, following the principle of separation of concerns.
+### JavaFX VS Swing:
+Choosing JavaFX over Swing is motivated by the advanced and automated tools available, simplifying UI development. Although it's my very first JavaFX project, it was easier to design and make it look appealing.
+### Output:
+![WhatsApp Image 2023-11-28 at 7 41 23 PM](https://github.com/sarwataijaz/Tic-Tac-Toe-Project/assets/124436066/e6254e54-bf9c-4a89-a007-9a488be2d6fe)
+
+
