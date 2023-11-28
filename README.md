@@ -15,6 +15,6 @@ Each controller class has a dedicated FXML document, following the principle of 
 Choosing JavaFX over Swing is motivated by the advanced and automated tools available, simplifying UI development. Although it's my very first JavaFX project, it was easier to design and make it look appealing.
 
 ### Output:
-![WhatsApp Image 2023-11-28 at 7 41 23 PM](https://github.com/sarwataijaz/Tic-Tac-Toe-Project/assets/124436066/e6254e54-bf9c-4a89-a007-9a488be2d6fe)
+![WhatsApp Image 2023-11-28 at 8 10 23 PM](https://github.com/sarwataijaz/Tic-Tac-Toe-Project/assets/124436066/49bc55fb-c08c-4e2e-b1af-205382656591)
 
 
